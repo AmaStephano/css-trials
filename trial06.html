@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0
+
+        } 
+
+        div {
+            height: 200px;
+            width: 350px;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        .blackbox {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin: 50px 0px 50px 50px;
+            display: inline-block;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class='red' >   
+        <div class='blackbox'></div>
+        <div class='blackbox'></div>  
+    </div><div class='blue'>   
+        <div class='blackbox'></div>
+        <div class='blackbox'></div>  
+    </div> 
+</body>
+</html>
+
+<!-- The two horizontally stacked bars are 400px by 200px
+The inner boxes are all 100px by 100px
+The inner boxes are evenly spaced from the edges of the outer boxes
+Important! In our screenshot, there is no gap between the left and the right bar. Figure out how to do this. (Hint: this is not a CSS problem) -->
